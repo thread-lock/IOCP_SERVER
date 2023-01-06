@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{ef276457-7aff-4d29-9f43-115b54ecf854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Network">
+      <UniqueIdentifier>{d1d6606e-0ff4-4130-9ba6-1899bf4a4359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{fa130c3f-33eb-4a20-9414-1c7235ff6059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{fa6fea86-2c8c-461a-bc77-3ec50e8d3073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game">
+      <UniqueIdentifier>{8eb656a9-f43f-43c1-aaf3-69066716c587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{8f0335a4-53ed-49c4-aeff-48e6e5296592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Map">
+      <UniqueIdentifier>{09ed3e4f-cef8-41bb-a05d-1adcbc901b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Map">
+      <UniqueIdentifier>{bf3d0de6-48d6-460d-9547-4e503395277d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Manager">
+      <UniqueIdentifier>{2a74ef11-9a80-4ac0-a7ae-508e747f9a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Network\Manager">
+      <UniqueIdentifier>{3d829a25-4021-4682-8b25-1e50a8d4c41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Manager">
+      <UniqueIdentifier>{24a899a0-a440-49c6-8838-a09088405644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Manager">
+      <UniqueIdentifier>{c7c61072-88d7-40f1-be7f-644e2fc7d915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\AI">
+      <UniqueIdentifier>{c1b5ba2a-c529-4e54-9084-83b2ba232d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Item">
+      <UniqueIdentifier>{34b86d73-e723-4953-b2a1-520046d6302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Item">
+      <UniqueIdentifier>{e0a14316-e862-446a-8a5f-96293bd70365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\XML">
+      <UniqueIdentifier>{e6e22ad4-e2e5-4be6-a8fe-775b0390c920}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Buf.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInfo.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="VLPacket.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Sock.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MainManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Charactor.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Eqinfo.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>헤더 파일\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Town.h">
+      <Filter>헤더 파일\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>헤더 파일\Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnryptManager.h">
+      <Filter>헤더 파일\Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrManager.h">
+      <Filter>헤더 파일\Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpManager.h">
+      <Filter>헤더 파일\Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>헤더 파일\Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CharManager.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManger.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Party.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyManager.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>헤더 파일\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonManager.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.h">
+      <Filter>헤더 파일\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>헤더 파일\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob_AI.h">
+      <Filter>헤더 파일\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameThread.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AIThread.h">
+      <Filter>헤더 파일\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath2D.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>헤더 파일\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>헤더 파일\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>헤더 파일\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>헤더 파일\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>헤더 파일\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>헤더 파일\XML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Buf.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInfo.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Sock.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="VLPacket.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Eqinfo.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_Town.cpp">
+      <Filter>소스 파일\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Charactor.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CharManager.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>소스 파일\Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptManager.cpp">
+      <Filter>소스 파일\Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrManager.cpp">
+      <Filter>소스 파일\Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpManager.cpp">
+      <Filter>소스 파일\Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>소스 파일\Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Party.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyManager.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManger.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonManager.cpp">
+      <Filter>소스 파일\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>소스 파일\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob_AI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameThread.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AIThread.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMath2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>소스 파일\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>소스 파일\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>헤더 파일\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>헤더 파일\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>헤더 파일\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>헤더 파일\XML</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
