@@ -13,7 +13,6 @@ protected:
 	virtual void Run(void* data) override;
 	virtual void Exception() override;
 public:
-	// cFrameThread를 통해 상속함
 	cAI_Thread(int _frame, void *_data);
 
 };
