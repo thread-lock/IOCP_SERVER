@@ -4,7 +4,7 @@
 #include "Game.h"
 
 
-//AI 추상클래스
+//AI virtualClass
 class cAI
 {
 public:
